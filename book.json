@@ -1,0 +1,90 @@
+{
+	"title" : "AIstudy",
+	"author" : "AIstudy",
+	"description" : "AIstudy",
+	"language" : "zh-hans",
+	"plugins": [
+        "-lunr",
+        "-search",
+        "highlight",
+        "-livereload",
+        "search-plus",
+        "simple-page-toc",
+        "advanced-emoji",
+        "anchors",
+        "include-codeblock",
+        "-ace",
+        "-emphasize",
+        "-katex",
+        "-splitter",
+        "-mermaid-gb3",
+        "tbfed-pagefooter",
+        "expandable-chapters-small",
+        "sectionx",
+        "-local-video",
+        "anchor-navigation-ex",
+        "favicon",
+        "-todo",
+        "-alerts",
+        "-include-csv",
+        "-puml",
+        "-klipse",
+        "-versions-select",
+        "-sharing",
+        "-graph",
+        "-chart",
+        "-lightbox"
+    ],
+
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        },
+        "include-codeblock": {
+            "template": "ace",
+            "unindent": true,
+            "edit": true
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © AIstudy 2021",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false,
+            "associatedWithSummary": true,
+            "printLog": false,
+            "multipleH1": true,
+            "mode": "float",
+            "showGoTop":true,
+            "float": {
+                "floatIcon": "fa fa-navicon",
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            },
+            "pageTop": {
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            }
+        },
+        "sectionx": {
+            "tag": "b"
+        },
+        "favicon": {
+            "shortcut": "favicon.ico",
+            "bookmark": "favicon.ico"
+        }
+
+
+
+
+    }
+}
